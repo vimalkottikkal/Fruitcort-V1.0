@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    right: 0;
+    background-color: rgb(230, 255, 3);
+    
+    
+}
+nav .logo img{
+    width: 70px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 1.4rem;
+    margin-left: 60px;
+}
+nav ul li a{
+    color: green;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: rgb(255, 16, 16);
+    transition: 0.3s;
+}
+nav .search i{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+nav .search i:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.3s;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section .homeleft{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    bottom: 20px;
+    left: 5%;
+}
+section .homeleft h1{
+    font-size: 60px;
+    color: rgb(28, 170, 10); 
+    bottom: 20px;
+    left: 5%;
+}
+section .homeleft p{
+    width: 650px;
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+section .homeleft .homebtn{
+    
+    color: rgb(17, 114, 4);
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+section .homeright img{
+    width: 630px;
+    margin-left: 75px;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .aboutleft img{
+    width: 500px;
+    left: 5%;
+}
+.about .aboutright h1{
+    font-size: 60px;
+    color: rgb(234, 41, 41);
+    bottom: 20px;
+    left: 5%;
+}
+.about .aboutright p{
+    width: 650px;
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.about .aboutright a{
+    color: rgb(234, 41, 41);
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+.mainproducts{
+    width: 100%;
+    height: 100vh;
+}
+.mainproducts h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(234, 41, 41);
+    padding-bottom: 5%;
+
+}
+.mainproducts .productselect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.mainproducts .productselect .item{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+
+}
+.mainproducts .productselect .item .group1{
+    width: 100%;
+    height: 300px;
+}
+.mainproducts .productselect .item p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.mainproducts .productselect .item a{
+    color: rgb(234, 41, 41);
+    background-color: yellow;
+    padding: 6px;
+    border-radius: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer{
+    width: 100%;
+    background: rgb(235, 235, 117);
+}
+footer .footermain{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+footer .footermain .footertag{
+    text-align: justify;
+}
+footer .footermain .footertag p{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
